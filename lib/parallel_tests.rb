@@ -58,7 +58,7 @@ class ParallelTests
   end
 
   def self.test_env_number(process_number)
-    process_number == 0 ? '' : process_number + 1
+    process_number == 0 ? 0 : process_number + 1
   end
 
   def self.runtime_log
